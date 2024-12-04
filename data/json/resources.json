@@ -68,5 +68,10 @@
     "name": "Image Editor AI: Edit or make images using AI | ImageEditor.AI",
     "description": "Image Editor AI: Edit image using AI or make images using AI, just tell the AI what to do.",
     "url": "https://imageeditor.ai/"
+  },
+  {
+    "name": "Object Remover | Remove unwanted objects online for free",
+    "description": "Object Remover | Remove unwanted objects online for free",
+    "url": "https://objectremover.com/"
   }
 ]
