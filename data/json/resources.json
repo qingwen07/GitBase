@@ -93,5 +93,10 @@
     "name": "Erase It Cloudinary Labs - Cloud-Based Image and Video Management",
     "description": "Erase-it.cloudinary.com: Easily detect and eliminate objects from your images using Cloudinary AI technology.",
     "url": "https://erase-it.cloudinary.com/"
+  },
+  {
+    "name": "Colorify AI: Transforming Your Photos with AI-Powered Colorization",
+    "description": "Colorify.ai: Revive your old photos with a splash of color using Colorify.ai's innovative technology.",
+    "url": "https://www.colorify.ai/"
   }
 ]
