@@ -5,13 +5,14 @@ import { Metadata } from 'next'
 
 const inter = Inter({ subsets: ['latin'] })
 
-
 export const metadata: Metadata = {
   title: {
-    default: 'GitBase',
-    template: '%s | GitBase'
+    default: 'AI Photo Editor Tools',
+    template: '%s | AI Photo Editor Tools'
   },
-  description: 'Open source dynamic website without database, built with Next.js and GitHub API',
+  description: 'Discover and compare the best AI photo editing tools. A comprehensive directory of artificial intelligence powered image editing software, features, and resources.',
+  keywords: ['AI photo editor', 'AI Image Editor', 'AI picture editor', 'AI image editing', 'artificial intelligence photo tools', 
+    'photo editing software', 'AI image enhancement', 'photo editing tools', 'AI photography', 'AI image tools', 'AI logo generator'],
 }
 
 interface RootLayoutProps {

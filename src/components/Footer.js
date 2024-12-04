@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <h3 className="text-sm font-semibold text-gray-600 tracking-wider uppercase">About</h3>
             <p className="mt-4 text-base text-gray-500">
-              GitBase is an open-source dynamic website solution without a traditional database, built with Next.js and powered by GitHub.
+            AI Photo Editor Tools, Explore our curated collection of AI-powered photo editing tools. Compare features, read reviews, and find the perfect AI photo editor for your needs.
             </p>
           </div>
           <div>
@@ -21,13 +21,13 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/resources" className="text-base text-gray-500 hover:text-gray-900">
-                  Resources
+                <Link href="/ai-photo-editors" className="text-base text-gray-500 hover:text-gray-900">
+                  AI Photo Editors
                 </Link>
               </li>
               <li>
                 <Link href="/posts" className="text-base text-gray-500 hover:text-gray-900">
-                  Articles
+                  Blogs
                 </Link>
               </li>
             </ul>
@@ -36,17 +36,17 @@ export function Footer() {
             <h3 className="text-sm font-semibold text-gray-600 tracking-wider uppercase">Connect</h3>
             <ul className="mt-4 space-y-4">
               <li>
-                <a href="https://gitbase.app/" target="_blank" className="text-base text-gray-500 hover:text-gray-900">
-                  GitBase
+                <a href="https://aiphotoeditor.top/" target="_blank" className="text-base text-gray-500 hover:text-gray-900">
+                  AI Photo Editor
                 </a>
               </li>
               <li>
-                <a href="https://github.com/qiayue/gitbase" target="_blank" className="text-base text-gray-500 hover:text-gray-900">
+                <a href="https://github.com/qingwen07/gitbase" target="_blank" className="text-base text-gray-500 hover:text-gray-900">
                   GitHub
                 </a>
               </li>
               <li>
-                <a href="https://twitter.com/gefei55" target="_blank" className="text-base text-gray-500 hover:text-gray-900">
+                <a href="https://twitter.com/shadouyoua" target="_blank" className="text-base text-gray-500 hover:text-gray-900">
                   Twitter
                 </a>
               </li>
@@ -55,7 +55,7 @@ export function Footer() {
         </div>
         <div className="mt-8 border-t border-gray-200 pt-8">
           <p className="text-base text-gray-400 text-center">
-            &copy; {new Date().getFullYear()} GitBase. All rights reserved.
+            &copy; {new Date().getFullYear()} AI Photo Editor. All rights reserved.
           </p>
         </div>
       </div>
