@@ -27,12 +27,12 @@ export default function ResourceList({ resources, showMoreLink = true }) {
                 href={resource.url} 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:text-blue-800 transition-colors inline-flex items-center gap-1"
+                className="text-blue-600 hover:text-blue-800 transition-colors inline-flex items-center gap-1 w-full"
               >
-                <CardTitle>{resource.name}</CardTitle>
-                <ExternalLink size={16} />
+                <CardTitle className="truncate flex-1 overflow-hidden whitespace-nowrap" title={resource.name}>{resource.name}</CardTitle>
+                <ExternalLink size={16} className="flex-shrink-0" />
               </a>
-              <CardDescription>{resource.description}</CardDescription>
+              <CardDescription className="line-clamp-3" title={resource.description}>{resource.description}</CardDescription>
             </CardHeader>
           </Card>
         ))}
