@@ -28,5 +28,10 @@
     "name": "Remove watermark from images, AI watermark remover | Dewatermark",
     "description": "Remove watermark from photos in a flash online with Dewatermark.AI. Watermark remover using AI Technology to clear proof from images completely free.",
     "url": "https://dewatermark.ai/"
+  },
+  {
+    "name": "Cleanup.pictures - Remove objects, people, text and defects from any picture for free",
+    "description": "Remove unwanted objects from photos, people, text, and defects from any picture for free. It's extremely easy in just a few clicks with our creative editing tool.",
+    "url": "https://cleanup.pictures/"
   }
 ]
