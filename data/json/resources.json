@@ -103,5 +103,10 @@
     "name": "Glasses Gone",
     "description": "Remove eyeglasses / spectacles with AI - portrait photo retouching for portrait photos, remove glasses from photo online, change eye color online",
     "url": "https://www.glassesgone.com/"
+  },
+  {
+    "name": "Image Splitter",
+    "description": "Image Splitter - Free Online Image Grid Maker and Split Tool",
+    "url": "https://image-splitter.online/"
   }
 ]
