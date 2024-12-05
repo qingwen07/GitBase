@@ -23,16 +23,21 @@ export default function ResourceList({ resources, showMoreLink = true }) {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {resources.map((resource, index) => (
           <Card key={index} className="overflow-hidden flex flex-col">
-            <div className="relative w-full pt-[56.25%]">
+            <a
+              href={resource.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative aspect-video w-full group"
+            >
               <Image
                 src={resource.image || '/placeholder-image.png'}
                 alt={resource.name}
                 fill
                 unoptimized
-                className="object-cover"
+                className="object-cover transition-transform duration-300 group-hover:scale-110"
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
-            </div>
+            </a>
             <CardHeader className="flex-1">
               <a 
                 href={resource.url} 
@@ -40,7 +45,7 @@ export default function ResourceList({ resources, showMoreLink = true }) {
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:text-blue-800 transition-colors inline-flex items-center gap-1 w-full"
               >
-                <CardTitle className="truncate flex-1 overflow-hidden whitespace-nowrap" title={resource.name}>{resource.name}</CardTitle>
+                <CardTitle className="line-clamp-1 flex-1 text-sm font-bold lg:text-base overflow-hidden whitespace-nowrap" title={resource.name}>{resource.name}</CardTitle>
                 <ExternalLink size={16} className="flex-shrink-0" />
               </a>
               <CardDescription className="line-clamp-3" title={resource.description}>{resource.description}</CardDescription>
