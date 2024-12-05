@@ -1,6 +1,7 @@
 // components/ResourceList.js
 import Link from 'next/link'
 import { ExternalLink } from 'lucide-react'
+import Image from 'next/image'
 import {
   Card,
   CardHeader,
@@ -21,8 +22,18 @@ export default function ResourceList({ resources, showMoreLink = true }) {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {resources.map((resource, index) => (
-          <Card key={index}>
-            <CardHeader>
+          <Card key={index} className="overflow-hidden flex flex-col">
+            <div className="relative w-full pt-[56.25%]">
+              <Image
+                src={resource.image || '/placeholder-image.png'}
+                alt={resource.name}
+                fill
+                unoptimized
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
+            </div>
+            <CardHeader className="flex-1">
               <a 
                 href={resource.url} 
                 target="_blank" 
