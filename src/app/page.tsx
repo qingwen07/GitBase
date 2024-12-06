@@ -7,7 +7,7 @@ import ArticleList from '@/components/ArticleList'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'AI Photo Editor Tools - Find the Best AI Image Editing Software',
+  title: 'AI Photo Editor Tools - Find the Best AI Photo Editing Software',
   description: 'Explore our curated collection of AI-powered photo editing tools. Compare features, read reviews, and find the perfect AI photo editor for your needs.',
 }
 

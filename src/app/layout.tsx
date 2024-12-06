@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     template: '%s | AI Photo Editor Tools'
   },
   description: 'Discover and compare the best AI photo editing tools. A comprehensive directory of artificial intelligence powered image editing software, features, and resources.',
-  keywords: ['AI photo editor', 'AI Image Editor', 'AI picture editor', 'AI image editing', 'artificial intelligence photo tools', 
+  keywords: ['AI photo editor', 'AI Image Editor', 'AI picture editor', 'AI image editing', 'ai photo enhancer', 'artificial intelligence photo tools', 
     'photo editing software', 'AI image enhancement', 'photo editing tools', 'AI photography', 'AI image tools', 'AI logo generator'],
 }
 
